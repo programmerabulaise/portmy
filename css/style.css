@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    color: #222;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+#maindiv {
+    background-image: url(https://i.ibb.co/TMCPqpw/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 20px;
+    height: 70vh;
+}
+body{
+    margin-bottom: 72px;
+    background: #333333;
+}
+.navbar{
+    padding: 0.8rem;
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+}
+
+.nav-link{
+    font-size: 2em !important;
+}
+
+a.nav-link{
+    color: white !important;
+    opacity: 100%;
+}
+
+.logo-title{
+    color:white;
+    font-size: 2em;
+}
+
+@media(max-width:719px){
+    .logo-title{
+        display: none;
+    }
+}
+
+ 
+
+div.main .sponsors{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sponsors img{
+    border-radius: 4px;
+}
+
+.sponsors .longbox{
+    margin-top: 10px !important;
+}
+
+.oursponsors{
+    color:white;
+}
+
+.social-media{
+    margin-top: 150px;
+    padding-bottom: 50px;
+}
+
+@media(max-width:959px){
+    .social-media{
+        margin-top: 65px !important;
+        padding-bottom: 120px;
+    }
+}
+
+footer h3{
+    color: #c0c0c0 !important;
+    font-size:30px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    vertical-align: middle;
+    line-height: 100px;
+     padding-bottom:40px;
+     padding-top:-20px;
+}
+
+@media(max-width:959px){
+    footer h3{
+        font-size: 2.1em;
+        margin-top: 30px;
+    }
+}
