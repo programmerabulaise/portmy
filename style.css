@@ -1,0 +1,3553 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -webkit-pictograph;
+
+  letter-spacing: 0.5px;
+}
+
+div#navbarSupportedContent {
+  justify-content: flex-end;
+}
+
+nav#navbar {
+  background: rebeccapurple !important;
+  box-shadow: 0px -4px 14px 1px black;
+}
+
+a#text-logo {
+  font-family: cursive;
+}
+
+section.fotter_secton1 {
+  background: #29292a;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.fone_content {
+  width: 50%;
+  margin: auto;
+}
+
+.head_title {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 35px 0px;
+}
+
+h2#contact_us {
+  /* border-bottom: 2px solid rebeccapurple; */
+  width: 345px;
+  margin: auto;
+}
+
+section.contact_us {
+  padding: 10px 0px 41px 0px;
+  background: linear-gradient(#dddddd5c, #dddddd4f), url(img/map-img.png);
+  background-repeat: repeat;
+  background-position: inherit;
+  background-size: contain;
+}
+
+#text_area {
+  width: 100%;
+}
+
+.cont_wrapper {
+  text-align: center;
+}
+
+.cont-img i {
+  font-size: 25px;
+  padding: 20px;
+  color: darkorchid;
+}
+
+.cont-img i:hover {
+  cursor: pointer;
+}
+
+.cont_header {
+  padding-bottom: 52px;
+}
+
+button#sbumit {
+  width: 200px;
+  background: rebeccapurple;
+  color: white;
+  padding: 10px 0px;
+  border-radius: 20px;
+  transition: all 1s;
+  outline: none;
+}
+
+button#sbumit:hover {
+  cursor: pointer;
+  box-shadow: 14px 9px 37px -3px black;
+}
+
+.form_sb {
+  text-align: center;
+  margin-top: 20px;
+}
+
+section.how_i_work {
+  padding: 7px 0px 23px 0px;
+}
+
+.work-wrapper {
+  text-align: center;
+  background: #dddd;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  transition: all 1s;
+  margin-bottom: 25px;
+}
+
+.work-icon i {
+  color: rebeccapurple;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  background: white;
+  line-height: 60px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.work-icon {
+  padding: 59px 0px 10px 0px;
+  position: relative;
+}
+
+span#work-span {
+  padding: 10px 0px;
+  display: block;
+}
+
+p#work_par {
+  padding: 10px 0px;
+}
+
+.work-wrapper::before {
+  content: '';
+  width: 95%;
+  height: 60%;
+  background: #f8e7e7;
+  position: absolute;
+  left: 2.5%;
+  border-radius: 50%;
+  top: -30%;
+}
+
+.work-wrapper:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+.work-wrapper:hover .work-icon i {
+  background: rebeccapurple;
+  color: #f8e7e7;
+}
+
+h6#hit_title {
+  color: red;
+  font-style: italic;
+}
+
+.cont_wrapper {
+  background: #ffffffba;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.banner_section {
+  background: linear-gradient(to right, #0f0f0f99, #48c4b2e3),
+    url(img/main-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  max-width: 100%;
+  background-position: center;
+}
+
+.ab-Image img {
+  max-width: 100%;
+}
+
+ 
+
+.about-dis {
+  padding-left: 50px;
+}
+
+small.ab_f-h {
+  font-size: 20px;
+  font-style: italic;
+  color: red;
+  font-family: monospace;
+}
+
+button.about_btn {
+  background: rebeccapurple;
+  color: white;
+  width: 150px;
+  font-family: monospace;
+  border-radius: 10px;
+  padding: 8px 2px;
+  transition: all 1s;
+  outline: none;
+}
+
+button.about_btn:hover {
+  box-shadow: 3px 10px 72px -7px black;
+}
+
+h1.ab_titel {
+  padding: 20px 0px 20px 0px;
+  font-weight: 900;
+}
+
+h2.sill_to {
+  font-weight: 700;
+  font-family: math;
+  width: 200px;
+  margin: auto;
+  background: url(img/works-shape.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.skill_under_wrapper {
+  padding: 5px;
+}
+
+.Pro_con {
+  position: relative;
+  padding: 6px 0px;
+}
+
+h4#spe-skill {
+  font-size: 18px;
+  font-family: initial;
+}
+
+/* css for design */
+
+small#design_pre_pr {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#design_pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: design 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#design_pro::after {
+  content: '95%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for development */
+
+small#development {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#development_pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: developmetn 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#development_pro::after {
+  content: '85%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for css */
+
+small#css {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#css-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: css 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#css-pro::after {
+  content: '80%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for bootstrap */
+
+small#bootstrap {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#boo-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: bootstrap 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#boo-pro::after {
+  content: '100%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for larvel */
+
+small#larvel {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#laravel-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: developmetn 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#laravel-pro::after {
+  content: '85%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for javs */
+
+small#javs {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#javs-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: css 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#javs-pro::after {
+  content: '80%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for Wordpress */
+
+small#Wordpress {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#Wordpress-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: javascript 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#Wordpress-pro::after {
+  content: '75%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for ajax */
+
+small#ajax {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#ajax-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: design 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#ajax-pro::after {
+  content: '95%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for html */
+
+small#html {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#html-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: design 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#html-pro::after {
+  content: '95%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for jquery */
+
+small#jquery {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#jquery-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: jquery 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#jquery-pro::after {
+  content: '90%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for jquery */
+
+small#php {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#php-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: javascript 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#php-pro::after {
+  content: '70%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for react */
+
+small#react {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#react-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: jquery 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#react-pro::after {
+  content: '90%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* animation for skill  */
+@keyframes jquery {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 90%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 70%;
+  }
+}
+
+@keyframes bootstrap {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 100%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 80%;
+  }
+}
+
+/* animation for skill  */
+@keyframes design {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 95%;
+  }
+}
+
+/* animation for skill  */
+@keyframes developmetn {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 85%;
+  }
+}
+
+.pro_slill_grace {
+  padding: 11px 0px;
+}
+
+section.my_skill_section {
+  padding: 70px 0px;
+}
+
+h4#spe-skill {
+  padding: 5px 0px;
+}
+
+section.my_skill_section:hover {
+  cursor: pointer;
+}
+
+.banner_right_content img {
+  max-width: 100%;
+}
+
+.banner_right_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 98vh;
+}
+
+h3#ba_h3 {
+  color: white;
+  padding: 10px 0px;
+}
+
+h1#ba-h1 {
+  font-weight: bold;
+  color: white;
+  padding: 20px 0px;
+}
+
+p#banner-paragraph {
+  color: white;
+}
+
+.solical_media {
+  padding: 50px 0px;
+}
+
+.solical_media {
+  display: flex;
+  width: 324px;
+}
+
+.solical_media i {
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  background: rebeccapurple;
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+span.ss {
+  position: relative;
+  margin-right: 42px;
+}
+
+span.ss::after {
+  width: 24px;
+  height: 3px;
+  background: red;
+  position: absolute;
+  content: '';
+  right: -29px;
+  top: 13px;
+  border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -webkit-pictograph;
+
+  letter-spacing: 0.5px;
+}
+
+div#navbarSupportedContent {
+  justify-content: flex-end;
+}
+
+nav#navbar {
+  background: rebeccapurple !important;
+  box-shadow: 0px -4px 14px 1px black;
+}
+
+a#text-logo {
+  font-family: cursive;
+}
+
+section.fotter_secton1 {
+  background: #29292a;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.fone_content {
+  width: 50%;
+  margin: auto;
+}
+
+.head_title {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 35px 0px;
+}
+
+h2#contact_us {
+  /* border-bottom: 2px solid rebeccapurple; */
+  width: 345px;
+  margin: auto;
+}
+
+section.contact_us {
+  padding: 10px 0px 41px 0px;
+  background: linear-gradient(#dddddd5c, #dddddd4f), url(img/map-img.png);
+  background-repeat: repeat;
+  background-position: inherit;
+  background-size: contain;
+}
+
+#text_area {
+  width: 100%;
+}
+
+.cont_wrapper {
+  text-align: center;
+}
+
+.cont-img i {
+  font-size: 25px;
+  padding: 20px;
+  color: darkorchid;
+}
+
+.cont-img i:hover {
+  cursor: pointer;
+}
+
+.cont_header {
+  padding-bottom: 52px;
+}
+
+button#sbumit {
+  width: 200px;
+  background: rebeccapurple;
+  color: white;
+  padding: 10px 0px;
+  border-radius: 20px;
+  transition: all 1s;
+  outline: none;
+}
+
+button#sbumit:hover {
+  cursor: pointer;
+  box-shadow: 14px 9px 37px -3px black;
+}
+
+.form_sb {
+  text-align: center;
+  margin-top: 20px;
+}
+
+section.how_i_work {
+  padding: 7px 0px 23px 0px;
+}
+
+.work-wrapper {
+  text-align: center;
+  background: #dddd;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  transition: all 1s;
+  margin-bottom: 25px;
+}
+
+.work-icon i {
+  color: rebeccapurple;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  background: white;
+  line-height: 60px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.work-icon {
+  padding: 59px 0px 10px 0px;
+  position: relative;
+}
+
+span#work-span {
+  padding: 10px 0px;
+  display: block;
+}
+
+p#work_par {
+  padding: 10px 0px;
+}
+
+.work-wrapper::before {
+  content: '';
+  width: 95%;
+  height: 60%;
+  background: #f8e7e7;
+  position: absolute;
+  left: 2.5%;
+  border-radius: 50%;
+  top: -30%;
+}
+
+.work-wrapper:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+.work-wrapper:hover .work-icon i {
+  background: rebeccapurple;
+  color: #f8e7e7;
+}
+
+h6#hit_title {
+  color: red;
+  font-style: italic;
+}
+
+.cont_wrapper {
+  background: #ffffffba;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.banner_section {
+  background: linear-gradient(to right, #0f0f0f99, #48c4b2e3),
+    url(img/main-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  max-width: 100%;
+  background-position: center;
+}
+
+.ab-Image img {
+  max-width: 100%;
+}
+
+ 
+
+.about-dis {
+  padding-left: 50px;
+}
+
+small.ab_f-h {
+  font-size: 20px;
+  font-style: italic;
+  color: red;
+  font-family: monospace;
+}
+
+button.about_btn {
+  background: rebeccapurple;
+  color: white;
+  width: 150px;
+  font-family: monospace;
+  border-radius: 10px;
+  padding: 8px 2px;
+  transition: all 1s;
+  outline: none;
+}
+
+button.about_btn:hover {
+  box-shadow: 3px 10px 72px -7px black;
+}
+
+h1.ab_titel {
+  padding: 20px 0px 20px 0px;
+  font-weight: 900;
+}
+
+h2.sill_to {
+  font-weight: 700;
+  font-family: math;
+  width: 200px;
+  margin: auto;
+  background: url(img/works-shape.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.skill_under_wrapper {
+  padding: 5px;
+}
+
+.Pro_con {
+  position: relative;
+  padding: 6px 0px;
+}
+
+h4#spe-skill {
+  font-size: 18px;
+  font-family: initial;
+}
+
+/* css for design */
+
+small#design_pre_pr {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#design_pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: design 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#design_pro::after {
+  content: '95%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for development */
+
+small#development {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#development_pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: developmetn 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#development_pro::after {
+  content: '85%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for css */
+
+small#css {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#css-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: css 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#css-pro::after {
+  content: '80%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for bootstrap */
+
+small#bootstrap {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#boo-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: bootstrap 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#boo-pro::after {
+  content: '100%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for larvel */
+
+small#larvel {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#laravel-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: developmetn 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#laravel-pro::after {
+  content: '85%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for javs */
+
+small#javs {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#javs-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: css 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#javs-pro::after {
+  content: '80%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for Wordpress */
+
+small#Wordpress {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#Wordpress-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: javascript 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#Wordpress-pro::after {
+  content: '75%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for ajax */
+
+small#ajax {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#ajax-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: design 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#ajax-pro::after {
+  content: '95%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for html */
+
+small#html {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#html-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: design 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#html-pro::after {
+  content: '95%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for jquery */
+
+small#jquery {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#jquery-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: jquery 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#jquery-pro::after {
+  content: '90%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for jquery */
+
+small#php {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#php-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: javascript 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#php-pro::after {
+  content: '70%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for react */
+
+small#react {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#react-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: jquery 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#react-pro::after {
+  content: '90%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* animation for skill  */
+@keyframes jquery {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 90%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 70%;
+  }
+}
+
+@keyframes bootstrap {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 100%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 80%;
+  }
+}
+
+/* animation for skill  */
+@keyframes design {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 95%;
+  }
+}
+
+/* animation for skill  */
+@keyframes developmetn {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 85%;
+  }
+}
+
+.pro_slill_grace {
+  padding: 11px 0px;
+}
+
+section.my_skill_section {
+  padding: 70px 0px;
+}
+
+h4#spe-skill {
+  padding: 5px 0px;
+}
+
+section.my_skill_section:hover {
+  cursor: pointer;
+}
+
+.banner_right_content img {
+  max-width: 100%;
+}
+
+ 
+
+.inner_left_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+h3#ba_h3 {
+  color: white;
+  padding: 10px 0px;
+}
+
+h1#ba-h1 {
+  font-weight: bold;
+  color: white;
+  padding: 20px 0px;
+}
+
+p#banner-paragraph {
+  color: white;
+}
+
+.solical_media {
+  padding: 50px 0px;
+}
+
+.solical_media {
+  display: flex;
+  width: 324px;
+}
+
+.solical_media i {
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  background: white;
+  text-align: center;
+  color: rebeccapurple;
+  border-radius: 50%;
+  margin-right: 8px;
+  transition: 0.5s;
+}
+
+span.ss {
+  position: relative;
+  margin-right: 42px;
+  font-family: cursive;
+  color: white;
+}
+
+span.ss::after {
+  width: 24px;
+  height: 3px;
+  background: #fefefe;
+  position: absolute;
+  content: '';
+  right: -29px;
+  top: 13px;
+  border-radius: 10px;
+}
+
+.solical_media i:hover {
+  color: white;
+  background: rebeccapurple;
+}
+
+@media (max-width: 768px) {
+  .banner_right_content {
+    display: none;
+  }
+}
+
+@media (max-width: 551px) {
+  h1#ba-h1 {
+    font-size: 35px;
+  }
+
+  .about-dis {
+    padding-left: 0px;
+  }
+}
+
+h3#type_heading {
+  color: white;
+  font-weight: 700;
+  font-family: cursive;
+  margin-right: 24px;
+}
+
+.type_text_aniamtin {
+  display: flex;
+}
+
+h4#change_type_text {
+  position: relative;
+}
+
+h4#change_type_text::after {
+  content: '';
+  background: white;
+  width: 4px;
+  height: 32px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  border-radius: 32px;
+  margin-right: -9px;
+  animation: blink 1s step-end infinite;
+}
+/*  animation for type blink */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+h4#change_type_text {
+  color: #ebff1c;
+  font-weight: 700;
+  padding-top: 3px;
+}
+
+section.my_portfollio {
+  padding: 14px 0px 50px 0px;
+}
+.tab {
+  width: 29%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab button {
+  width: 100px;
+  border-radius: 6px;
+  outline: none;
+  background: rebeccapurple;
+  color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -webkit-pictograph;
+
+  letter-spacing: 0.5px;
+}
+
+div#navbarSupportedContent {
+  justify-content: flex-end;
+}
+
+nav#navbar {
+  background: rebeccapurple !important;
+  box-shadow: 0px -4px 14px 1px black;
+}
+
+a#text-logo {
+  font-family: cursive;
+}
+
+section.fotter_secton1 {
+  background: #29292a;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.fone_content {
+  width: 50%;
+  margin: auto;
+}
+
+.head_title {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 35px 0px;
+}
+
+h2#contact_us {
+  /* border-bottom: 2px solid rebeccapurple; */
+  width: 345px;
+  margin: auto;
+}
+
+section.contact_us {
+  padding: 10px 0px 41px 0px;
+  background: linear-gradient(#dddddd5c, #dddddd4f), url(img/map-img.png);
+  background-repeat: repeat;
+  background-position: inherit;
+  background-size: contain;
+}
+
+#text_area {
+  width: 100%;
+}
+
+.cont_wrapper {
+  text-align: center;
+}
+
+.cont-img i {
+  font-size: 25px;
+  padding: 20px;
+  color: darkorchid;
+}
+
+.cont-img i:hover {
+  cursor: pointer;
+}
+
+.cont_header {
+  padding-bottom: 52px;
+}
+
+button#sbumit {
+  width: 200px;
+  background: rebeccapurple;
+  color: white;
+  padding: 10px 0px;
+  border-radius: 20px;
+  transition: all 1s;
+  outline: none;
+}
+
+button#sbumit:hover {
+  cursor: pointer;
+  box-shadow: 14px 9px 37px -3px black;
+}
+
+.form_sb {
+  text-align: center;
+  margin-top: 20px;
+}
+
+section.how_i_work {
+  padding: 7px 0px 23px 0px;
+}
+
+.work-wrapper {
+  text-align: center;
+  background: #dddd;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  transition: all 1s;
+  margin-bottom: 25px;
+}
+
+.work-icon i {
+  color: rebeccapurple;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  background: white;
+  line-height: 60px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.work-icon {
+  padding: 59px 0px 10px 0px;
+  position: relative;
+}
+
+span#work-span {
+  padding: 10px 0px;
+  display: block;
+}
+
+p#work_par {
+  padding: 10px 0px;
+}
+
+.work-wrapper::before {
+  content: '';
+  width: 95%;
+  height: 60%;
+  background: #f8e7e7;
+  position: absolute;
+  left: 2.5%;
+  border-radius: 50%;
+  top: -30%;
+}
+
+.work-wrapper:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+.work-wrapper:hover .work-icon i {
+  background: rebeccapurple;
+  color: #f8e7e7;
+}
+
+h6#hit_title {
+  color: red;
+  font-style: italic;
+}
+
+.cont_wrapper {
+  background: #ffffffba;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.banner_section {
+  background: linear-gradient(to right, #0f0f0f99, #48c4b2e3),
+    url(img/main-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  max-width: 100%;
+  background-position: center;
+}
+
+.ab-Image img {
+  max-width: 100%;
+}
+ 
+.about-dis {
+  padding-left: 50px;
+}
+
+small.ab_f-h {
+  font-size: 20px;
+  font-style: italic;
+  color: red;
+  font-family: monospace;
+}
+
+button.about_btn {
+  background: rebeccapurple;
+  color: white;
+  width: 150px;
+  font-family: monospace;
+  border-radius: 10px;
+  padding: 8px 2px;
+  transition: all 1s;
+  outline: none;
+}
+
+button.about_btn:hover {
+  box-shadow: 3px 10px 72px -7px black;
+}
+
+h1.ab_titel {
+  padding: 20px 0px 20px 0px;
+  font-weight: 900;
+}
+
+h2.sill_to {
+  font-weight: 700;
+  font-family: math;
+  width: 200px;
+  margin: auto;
+  background: url(img/works-shape.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.skill_under_wrapper {
+  padding: 5px;
+}
+
+.Pro_con {
+  position: relative;
+  padding: 6px 0px;
+}
+
+h4#spe-skill {
+  font-size: 18px;
+  font-family: initial;
+}
+
+/* css for design */
+
+small#design_pre_pr {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#design_pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: design 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#design_pro::after {
+  content: '95%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for development */
+
+small#development {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#development_pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: developmetn 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#development_pro::after {
+  content: '85%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for css */
+
+small#css {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#css-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: css 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#css-pro::after {
+  content: '80%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for bootstrap */
+
+small#bootstrap {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#boo-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: bootstrap 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#boo-pro::after {
+  content: '100%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for larvel */
+
+small#larvel {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#laravel-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: developmetn 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#laravel-pro::after {
+  content: '85%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for javs */
+
+small#javs {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#javs-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: css 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#javs-pro::after {
+  content: '80%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for Wordpress */
+
+small#Wordpress {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#Wordpress-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: javascript 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#Wordpress-pro::after {
+  content: '75%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for ajax */
+
+small#ajax {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#ajax-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: design 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#ajax-pro::after {
+  content: '95%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for html */
+
+small#html {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#html-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: design 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#html-pro::after {
+  content: '95%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for jquery */
+
+small#jquery {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#jquery-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: jquery 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#jquery-pro::after {
+  content: '90%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for jquery */
+
+small#php {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#php-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: javascript 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#php-pro::after {
+  content: '70%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for react */
+
+small#react {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#react-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: jquery 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#react-pro::after {
+  content: '90%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* animation for skill  */
+@keyframes jquery {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 90%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 70%;
+  }
+}
+
+@keyframes bootstrap {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 100%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 80%;
+  }
+}
+
+/* animation for skill  */
+@keyframes design {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 95%;
+  }
+}
+
+/* animation for skill  */
+@keyframes developmetn {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 85%;
+  }
+}
+
+.pro_slill_grace {
+  padding: 11px 0px;
+}
+
+section.my_skill_section {
+  padding: 70px 0px;
+}
+
+h4#spe-skill {
+  padding: 5px 0px;
+}
+
+section.my_skill_section:hover {
+  cursor: pointer;
+}
+
+.banner_right_content img {
+  max-width: 100%;
+}
+
+.banner_right_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 98vh;
+}
+ 
+
+h3#ba_h3 {
+  color: white;
+  padding: 10px 0px;
+}
+
+h1#ba-h1 {
+  font-weight: bold;
+  color: white;
+  padding: 20px 0px;
+}
+
+p#banner-paragraph {
+  color: white;
+}
+
+.solical_media {
+  padding: 50px 0px;
+}
+
+.solical_media {
+  display: flex;
+  width: 324px;
+}
+
+.solical_media i {
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  background: rebeccapurple;
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+span.ss {
+  position: relative;
+  margin-right: 42px;
+}
+
+span.ss::after {
+  width: 24px;
+  height: 3px;
+  background: red;
+  position: absolute;
+  content: '';
+  right: -29px;
+  top: 13px;
+  border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -webkit-pictograph;
+
+  letter-spacing: 0.5px;
+}
+
+div#navbarSupportedContent {
+  justify-content: flex-end;
+}
+
+nav#navbar {
+  background: rebeccapurple !important;
+  box-shadow: 0px -4px 14px 1px black;
+}
+
+a#text-logo {
+  font-family: cursive;
+}
+
+section.fotter_secton1 {
+  background: #29292a;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.fone_content {
+  width: 50%;
+  margin: auto;
+}
+
+.head_title {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 35px 0px;
+}
+
+h2#contact_us {
+  /* border-bottom: 2px solid rebeccapurple; */
+  width: 345px;
+  margin: auto;
+}
+
+section.contact_us {
+  padding: 10px 0px 41px 0px;
+  background: linear-gradient(#dddddd5c, #dddddd4f), url(img/map-img.png);
+  background-repeat: repeat;
+  background-position: inherit;
+  background-size: contain;
+}
+
+#text_area {
+  width: 100%;
+}
+
+.cont_wrapper {
+  text-align: center;
+}
+
+.cont-img i {
+  font-size: 25px;
+  padding: 20px;
+  color: darkorchid;
+}
+
+.cont-img i:hover {
+  cursor: pointer;
+}
+
+.cont_header {
+  padding-bottom: 52px;
+}
+
+button#sbumit {
+  width: 200px;
+  background: rebeccapurple;
+  color: white;
+  padding: 10px 0px;
+  border-radius: 20px;
+  transition: all 1s;
+  outline: none;
+}
+
+button#sbumit:hover {
+  cursor: pointer;
+  box-shadow: 14px 9px 37px -3px black;
+}
+
+.form_sb {
+  text-align: center;
+  margin-top: 20px;
+}
+
+section.how_i_work {
+  padding: 7px 0px 23px 0px;
+  background: #dddd;
+}
+
+.work-wrapper {
+  text-align: center;
+  background: #dddd;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  transition: all 1s;
+  margin-bottom: 25px;
+  background: white;
+}
+
+.work-icon i {
+  color: rebeccapurple;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  background: white;
+  line-height: 60px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.work-icon {
+  padding: 59px 0px 10px 0px;
+  position: relative;
+}
+
+span#work-span {
+  padding: 10px 0px;
+  display: block;
+}
+
+p#work_par {
+  padding: 10px 0px;
+}
+
+.work-wrapper::before {
+  content: '';
+  width: 95%;
+  height: 60%;
+  background: #f8e7e7;
+  position: absolute;
+  left: 2.5%;
+  border-radius: 50%;
+  top: -30%;
+}
+
+.work-wrapper:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+ 
+
+h6#hit_title {
+  color: red;
+  font-style: italic;
+}
+
+.cont_wrapper {
+  background: #ffffffba;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.banner_section {
+  background: linear-gradient(to right, #0f0f0f99, #48c4b2e3),
+    url(img/main-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  max-width: 100%;
+  background-position: center;
+}
+
+.ab-Image img {
+  max-width: 100%;
+}
+
+section.about_me_section {
+  padding: 70px;
+}
+
+.about-dis {
+  padding-left: 50px;
+}
+
+small.ab_f-h {
+  font-size: 20px;
+  font-style: italic;
+  color: red;
+  font-family: monospace;
+}
+
+button.about_btn {
+  background: rebeccapurple;
+  color: white;
+  width: 150px;
+  font-family: monospace;
+  border-radius: 10px;
+  padding: 8px 2px;
+  transition: all 1s;
+  outline: none;
+}
+
+button.about_btn:hover {
+  box-shadow: 3px 10px 72px -7px black;
+}
+
+h1.ab_titel {
+  padding: 20px 0px 20px 0px;
+  font-weight: 900;
+}
+
+h2.sill_to {
+  font-weight: 700;
+  font-family: math;
+  width: 200px;
+  margin: auto;
+  background: url(img/works-shape.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.skill_under_wrapper {
+  padding: 5px;
+}
+
+.Pro_con {
+  position: relative;
+  padding: 6px 0px;
+}
+
+h4#spe-skill {
+  font-size: 18px;
+  font-family: initial;
+}
+
+/* css for design */
+
+small#design_pre_pr {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#design_pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: design 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#design_pro::after {
+  content: '95%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for development */
+
+small#development {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#development_pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: developmetn 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#development_pro::after {
+  content: '85%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for css */
+
+small#css {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#css-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: css 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#css-pro::after {
+  content: '80%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for bootstrap */
+
+small#bootstrap {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#boo-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: bootstrap 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#boo-pro::after {
+  content: '100%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for larvel */
+
+small#larvel {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#laravel-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: developmetn 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#laravel-pro::after {
+  content: '85%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for javs */
+
+small#javs {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#javs-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: css 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#javs-pro::after {
+  content: '80%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for Wordpress */
+
+small#Wordpress {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#Wordpress-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: javascript 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#Wordpress-pro::after {
+  content: '75%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for ajax */
+
+small#ajax {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#ajax-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: design 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#ajax-pro::after {
+  content: '95%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for html */
+
+small#html {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#html-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: design 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#html-pro::after {
+  content: '95%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for jquery */
+
+small#jquery {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#jquery-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: jquery 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#jquery-pro::after {
+  content: '90%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for jquery */
+
+small#php {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#php-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: javascript 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#php-pro::after {
+  content: '70%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* css for react */
+
+small#react {
+  width: 100%;
+  height: 8px;
+  background: #dddd;
+  position: absolute;
+  border-radius: 10px;
+}
+
+small#react-pro {
+  height: 8px;
+  background: #00c2ff;
+  width: 88%;
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  animation: jquery 4s cubic-bezier(0.14, 1.23, 0.77, 1.04) infinite;
+}
+
+small#react-pro::after {
+  content: '90%';
+  width: 31px;
+  height: 20px;
+  background: rebeccapurple;
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 0px 5px 0px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* animation for skill  */
+@keyframes jquery {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 90%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 70%;
+  }
+}
+
+@keyframes bootstrap {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 100%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 80%;
+  }
+}
+
+/* animation for skill  */
+@keyframes design {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 95%;
+  }
+}
+
+/* animation for skill  */
+@keyframes developmetn {
+  0% {
+    width: 0%;
+  }
+
+  95% {
+    width: 85%;
+  }
+}
+
+.pro_slill_grace {
+  padding: 11px 0px;
+}
+
+section.my_skill_section {
+  padding: 70px 0px;
+}
+
+h4#spe-skill {
+  padding: 5px 0px;
+}
+
+section.my_skill_section:hover {
+  cursor: pointer;
+}
+
+.banner_right_content img {
+  max-width: 100%;
+}
+
+.inner_left_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+h3#ba_h3 {
+  color: white;
+  padding: 10px 0px;
+}
+
+h1#ba-h1 {
+  font-weight: bold;
+  color: white;
+  padding: 20px 0px;
+}
+
+p#banner-paragraph {
+  color: white;
+}
+
+.solical_media {
+  padding: 50px 0px;
+}
+
+.solical_media {
+  display: flex;
+  width: 359px;
+}
+
+.solical_media i {
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  background: white;
+  text-align: center;
+  color: rebeccapurple;
+  border-radius: 50%;
+  margin-right: 8px;
+  transition: 0.5s;
+}
+
+span.ss {
+  position: relative;
+  margin-right: 42px;
+  font-family: cursive;
+  color: white;
+}
+
+span.ss::after {
+  width: 24px;
+  height: 3px;
+  background: #fefefe;
+  position: absolute;
+  content: '';
+  right: -29px;
+  top: 13px;
+  border-radius: 10px;
+}
+
+.solical_media i:hover {
+  color: white;
+  background: rebeccapurple;
+}
+
+@media (max-width: 768px) {
+  .banner_right_content {
+    display: none;
+  }
+}
+
+@media (max-width: 551px) {
+  h1#ba-h1 {
+    font-size: 35px;
+  }
+
+  .about-dis {
+    padding-left: 0px;
+  }
+}
+
+h3#type_heading {
+  color: white;
+  font-weight: 700;
+  font-family: cursive;
+  margin-right: 24px;
+}
+
+.type_text_aniamtin {
+  display: flex;
+}
+
+h4#change_type_text {
+  position: relative;
+}
+
+h4#change_type_text::after {
+  content: '';
+  background: white;
+  width: 4px;
+  height: 32px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  border-radius: 32px;
+  margin-right: -9px;
+  animation: blink 1s step-end infinite;
+}
+/*  animation for type blink */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+h4#change_type_text {
+  color: #ebff1c;
+  font-weight: 700;
+  padding-top: 3px;
+}
+
+section.my_portfollio {
+  padding: 14px 0px 50px 0px;
+
+  position: relative;
+}
+.tab {
+  width: 51%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab button {
+  width: 100px;
+  border-radius: 6px;
+  outline: none;
+  background: rebeccapurple;
+  color: white;
+  padding: 2px 5px;
+}
+.p_img img {
+  max-width: 100%;
+}
+div#London {
+  padding-top: 50px;
+}
+
+ 
+section.light_bx {
+  background: #0000007d;
+  position: absolute;
+  top: 55px;
+  left: 0px;
+  z-index: 1;
+  display: none;
+  transition: all 1s;
+  width: 99%;
+}
+
+.lightbox_inner_dive_box {
+  position: relative;
+  padding-top: 103px;
+  margin-top: 2745px;
+}
+
+i#close_lightbox {
+  position: absolute;
+  right: 0px;
+  top: 43px;
+  font-size: 20px;
+  padding: 2px;
+  color: white;
+  transition: all 1s;
+}
+i#close_lightbox:hover {
+    cursor: zoom-out;
+}
+ 
+ 
+.innerim {
+    text-align: center;
+}
+.nne_l_im {
+    max-width: 100%;
+}
+/* style for tab in portfollio */
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: rebeccapurple;
+}
+img#inne_l_im {
+    max-width: 100%;
+    height: 1868px;
+}
+ .p_img {
+    transition: all 1s;
+    margin-top: 45px;
+}
+
+.p_img:hover {
+    cursor: pointer;
+    filter: brightness(0.5);
+}
+section.myservice_secton {
+    padding: 50px 0px;
+}
+section.myservice_secton {
+    background: #dddd;
+}
+.inner_ser {
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.8s;
+    margin-top: 33px;
+}
+
+.inner_ser i {
+    color: rebeccapurple;
+    font-size: 40px;
+    padding: 30px 0px;
+    transition: 0.8s;
+}
+
+ .inner_ser:hover {
+    color: white;
+    background: #875ab3;
+}
+
+ 
+
+h3#ser_inner_h {
+    padding: 5px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: monospace;
+}
+
+p#ser_i_p {
+    padding: 11px 2px;
+}
+i#seo_icon {
+    transform: rotate(270deg);
+}
+
+.inner_ser {
+    transition: .6s;
+}
+
+.inner_ser:hover i {
+    color: white;
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.inner_ser:hover {
+    cursor: all-scroll;
+}
+.work-icon:hover {
+    cursor: all-scroll !important;
+}
+/* responsive css for porheader */
+@media (max-width:900px) {
+  .tab {
+    width: 94%;
+   
+}
+  
+}
+@media(max-width:540px){
+  button.tablinks {
+    font-size: 11px;
+}
+
+button.tablinks {
+    margin: 4px;
+}
+}
